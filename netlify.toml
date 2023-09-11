@@ -6,8 +6,8 @@
   package = "netlify-plugin-cypress"
 
 [[redirects]]
-  from = "/financial-professionals/FP-0332/*"
-  to = "https://right-solid-silkworm.sbx.pgsdemo.com/financial-professionals/FP-0332/:splat"
+  from = "/financial-professionals/fp-0332/*"
+  to = "https://right-solid-silkworm.sbx.pgsdemo.com/financial-professionals/fp-0332/:splat"
   status = 200
   force = true
   headers = {Host = "https://right-solid-silkworm.sbx.pgsdemo.com"}
@@ -17,4 +17,4 @@
   to = "https://reputably-main-aphid.sbx.pgsdemo.com/:splat"
   status = 200
   force = true
-  headers = {Host = "https://right-solid-silkworm.sbx.pgsdemo.com"}
+  headers = {Host = "https://reputably-main-aphid.sbx.pgsdemo.com"}
