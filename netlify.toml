@@ -13,7 +13,7 @@
   headers = {Host = "https://right-solid-silkworm.sbx.pgsdemo.com"}
 
 [[redirects]]
-  from = "/financial-professionals/*"
+  from = "/*"
   to = "https://reputably-main-aphid.sbx.pgsdemo.com/:splat"
   status = 200
   force = true
