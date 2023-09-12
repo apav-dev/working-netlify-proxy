@@ -10,8 +10,8 @@
   to = "https://evenly-leading-mackerel.sbx.pgsdemo.com/financial-professionals/fp-0132/:splat"
   status = 200
   force = true
-  headers = {Host = "https://evenly-leading-mackerel.sbx.pgsdemo.com"}
-
+  headers = {Host = "evenly-leading-mackerel.sbx.pgsdemo.com/"}
+  
 [[redirects]]
   from = "/financial-professionals/fp-0332/*"
   to = "https://right-solid-silkworm.sbx.pgsdemo.com/financial-professionals/fp-0332/:splat"
