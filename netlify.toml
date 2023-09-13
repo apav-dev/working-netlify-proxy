@@ -13,6 +13,13 @@
   headers = {Host = "https://evenly-leading-mackerel.sbx.pgsdemo.com/"}
 
 [[redirects]]
+  from = "/financial-professionals/fp-0332"
+  to = "https://evenly-leading-mackerel.sbx.pgsdemo.com/financial-professionals/fp-0332"
+  status = 200
+  force = true
+  headers = {Host = "https://evenly-leading-mackerel.sbx.pgsdemo.com/"}
+
+[[redirects]]
   from = "/*"
   to = "https://reputably-main-aphid.sbx.pgsdemo.com/:splat"
   status = 200
