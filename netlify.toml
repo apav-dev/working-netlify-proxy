@@ -6,18 +6,18 @@
   package = "netlify-plugin-cypress"
 
 [[redirects]]
-  from = "/financial-professionals/fp-0132/*"
-  to = "https://evenly-leading-mackerel.sbx.pgsdemo.com/:splat"
+  from = "/fp-0132/*"
+  to = "https://evenly-leading-mackerel.sbx.pgsdemo.com/financial-professionals/:splat"
   status = 200
   force = true
-  headers = {Host = "https://evenly-leading-mackerel.sbx.pgsdemo.com/"}
+  headers = {Host = "https://evenly-leading-mackerel.sbx.pgsdemo.com"}
   
 [[redirects]]
-  from = "/financial-professionals/fp-0332/*"
-  to = "https://right-solid-silkworm.sbx.pgsdemo.com/:splat"
+  from = "/fp-0332/*"
+  to = "https://right-solid-silkworm.sbx.pgsdemo.com/financial-professionals/:splat"
   status = 200
   force = true
-  headers = {Host = "https://right-solid-silkworm.sbx.pgsdemo.com/"}
+  headers = {Host = "https://right-solid-silkworm.sbx.pgsdemo.com"}
 
 [[redirects]]
   from = "/*"
