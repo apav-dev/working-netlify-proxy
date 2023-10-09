@@ -24,4 +24,4 @@
   to = "https://reputably-main-aphid.sbx.pgsdemo.com/:splat"
   status = 200
   force = true
-  headers = {Host = "https://reputably-main-aphid.sbx.pgsdemo.com/"}
+  headers = {Host = "https://reputably-main-aphid.sbx.pgsdemo.com/", Access-Control-Allow-Origin = "*" }
