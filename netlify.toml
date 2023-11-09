@@ -10,11 +10,11 @@
   to = "https://main-critical-worm.pgsdemo.com/locations/assets/:splat"
   status = 200
   force = true
-  headers = {Host = "https://main-critical-worm.pgsdemo.com/", Access-Control-Allow-Origin = "*" }
+  headers = {Host = "https://main-critical-worm.pgsdemo.com/" }
 
 [[redirects]]
-  from = "/locations/*"
-  to = "https://main-critical-worm.pgsdemo.com/locations/:splat"
+  from = "/*"
+  to = "https://main-critical-worm.pgsdemo.com/:splat"
   status = 200
   force = true
-  headers = {Host = "https://main-critical-worm.pgsdemo.com/", Access-Control-Allow-Origin = "*" }
+  headers = {Host = "https://main-critical-worm.pgsdemo.com/" }
