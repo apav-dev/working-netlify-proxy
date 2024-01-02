@@ -7,8 +7,8 @@
 
 [[redirects]]
   from = "/locations/*"
-  to = "https://tensely-blank-kite.pgsdemo.com/:splat"
+  to = "https://tensely-blank-kite.pgsdemo.com/locations/:splat"
   status = 200
   force = true
-  headers = {Host = "https://tensely-blank-kite.pgsdemo.com/" }
+  headers = {Host = "https://tensely-blank-kite.pgsdemo.com/", Access-Control-Allow-Origin = "*" }
 
