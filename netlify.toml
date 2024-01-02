@@ -6,14 +6,9 @@
   package = "netlify-plugin-cypress"
 
 [[redirects]]
-  from = "/locations/assets/*"
-  to = "https://tensely-blank-kite.pgsdemo.com/assets/:splat"
-  status = 200
-  force = true
-
-[[redirects]]
   from = "/locations/*"
   to = "https://tensely-blank-kite.pgsdemo.com/:splat"
   status = 200
   force = true
+  headers = {Host = "https://tensely-blank-kite.pgsdemo.com/" }
 
